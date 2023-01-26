@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,16 +16,16 @@ body {
     
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header section {
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,7 +37,7 @@ body {
     list-style-type: none;
 }*/
 
-.header ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
     list-style: none;
@@ -54,7 +54,7 @@ a, p {
 }*/
 
 .main-picture {
-    height: 800px;
+    height: 80%;
     width: 100%;
 }
 
@@ -157,7 +157,7 @@ aside {
     max-width: 150px;
 } */
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -167,7 +167,7 @@ aside {
 }
 
 /*          consolidated to above
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -176,7 +176,7 @@ aside {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -185,36 +185,36 @@ aside {
     color: #ffffff;
 }*/
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img{
     max-height: 200px;
 }
 
 /*          consolidated to above
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }*/
 
-.search-engine-optimization h2, .online-reputation-management, .social-media-marketing h2 {
+#search-engine-optimization h2, #online-reputation-management, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*          consolidated to above
-.online-reputation-management h2 {
+#online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+#social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }*/
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -234,4 +234,18 @@ aside {
 -comment on the CSS file to notate what stuff is.
 -get the first link to work properly.
 -write the README
-- once the above stuff is done move on to deployment
+- once the above stuff is done move on to deployment*/
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: red;
+    }
+    /* .main-picture {
+        height: 75%;
+    } */
+}
+
+
+
